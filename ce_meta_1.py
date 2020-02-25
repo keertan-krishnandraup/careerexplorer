@@ -36,7 +36,10 @@ def ce_driver(careers_json, start, width):
 
 def ce_get_meta_data1(no_processes):
     ce_url = 'https://www.careerexplorer.com/careers/?count=90&direction=asc&page=1&sort=name'
+    logging.info(f'Hitting API url:{ce_url}')
     resp_obj = requests.get(ce_url)
+    if(resp_obj is None):
+        logging.error(f'Response object is None')
     pq_obj = pq(resp_obj.text)
     script_tag = pq_obj('body').children('script')[8]
     info_master = pq(script_tag).text()
@@ -45,6 +48,7 @@ def ce_get_meta_data1(no_processes):
     per_process = len(careers_json)//no_processes + 1
     #pprint(careers_json[0])
     with multiprocessing.Pool(no_processes) as p:
+        logging.info(f'Initializing {no_processes} worker processes')
         multi = [p.apply_async(ce_driver,(careers_json,i*per_process, per_process, )) for i in range(no_processes)]
         # clean up
         p.close()
