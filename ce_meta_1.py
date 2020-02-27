@@ -30,7 +30,7 @@ async def ins_md(careers_json, start, width):
         tasks.append(task)
     await asyncio.gather(*tasks)
 
-def ce_driver(careers_json, start, width):
+def ce_driverm1(careers_json, start, width):
     loop = asyncio.get_event_loop()
     loop.run_until_complete(ins_md(careers_json, start, width))
 
@@ -49,7 +49,7 @@ def ce_get_meta_data1(no_processes):
     #pprint(careers_json[0])
     with multiprocessing.Pool(no_processes) as p:
         logging.info(f'Initializing {no_processes} worker processes')
-        multi = [p.apply_async(ce_driver,(careers_json,i*per_process, per_process, )) for i in range(no_processes)]
+        multi = [p.apply_async(ce_driverm1,(careers_json,i*per_process, per_process, )) for i in range(no_processes)]
         # clean up
         p.close()
         p.join()

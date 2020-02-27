@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef35b065-d4e4-457d-bdec-e6fbda1785b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ce_data_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ce_meta_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ce_meta_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ce_meta_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ce_meta_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_text.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../salary.com" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ce_data_3">
+    <configuration name="ce_data_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="careerexplorer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ce_data_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ce_meta_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="careerexplorer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,8 +80,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ce_meta_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="careerexplorer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ce_meta_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ce_data_3" />
+        <item itemvalue="Python.ce_meta_2" />
         <item itemvalue="Python.ce_meta_1" />
       </list>
     </recent_temporary>
@@ -80,25 +127,52 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1582539980294" />
-    <state width="1510" height="219" key="GridCell.Tab.0.bottom" timestamp="1582625028413">
+    <state width="1510" height="219" key="GridCell.Tab.0.bottom" timestamp="1582781728099">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1510" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1582625028413" />
-    <state width="1510" height="219" key="GridCell.Tab.0.center" timestamp="1582625028412">
+    <state width="1510" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1582781728099" />
+    <state width="1510" height="219" key="GridCell.Tab.0.center" timestamp="1582781728098">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1510" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1582625028412" />
-    <state width="1510" height="219" key="GridCell.Tab.0.left" timestamp="1582625028411">
+    <state width="1510" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1582781728098" />
+    <state width="1510" height="219" key="GridCell.Tab.0.left" timestamp="1582781728098">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1510" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1582625028411" />
-    <state width="1510" height="219" key="GridCell.Tab.0.right" timestamp="1582625028413">
+    <state width="1510" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1582781728098" />
+    <state width="1510" height="219" key="GridCell.Tab.0.right" timestamp="1582781728099">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1510" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1582625028413" />
+    <state width="1510" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1582781728099" />
+    <state width="1510" height="271" key="GridCell.Tab.1.bottom" timestamp="1582629023774">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1510" height="271" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1582629023774" />
+    <state width="1510" height="271" key="GridCell.Tab.1.center" timestamp="1582629023774">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1510" height="271" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1582629023774" />
+    <state width="1510" height="271" key="GridCell.Tab.1.left" timestamp="1582629023773">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1510" height="271" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1582629023773" />
+    <state width="1510" height="271" key="GridCell.Tab.1.right" timestamp="1582629023774">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1510" height="271" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1582629023774" />
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1582608315580">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1582608315580" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ce_meta_2.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
